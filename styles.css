@@ -1,3 +1,34 @@
-body{
-  background-color: gray;
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+:root{
+     --pink1: #f27dfd;
+     --blue1: #0bd3d3;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('pinkblue.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerimghead{
+  text-shadow: 5px 5px var(--blue1), 4px 4px var(--pink1);
+}
+
+.headerimagedesc{
+  text-shadow: 5px 5px #black;
 }
