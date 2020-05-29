@@ -5,17 +5,32 @@
  */
 :root{
      --pink1: #f27dfd;
+     --pink2: #f58cff;
+     --pink3: #fde6ff;
+     --pink4: #f26bff;
      --blue1: #0bd3d3;
+     --blue2: #bde5dd;
+     --blue3: #edf5f3;
 }
 
+/*Stylization for header*/
 header {
   padding: 156px 0 100px;
 }
-
+/*Stylization for sections*/
 section {
   padding: 150px 0;
 }
-
+/*Stylization for h2 tags, adds custom font*/
+h2{
+  padding-bottom: 1em;
+  font-family: 'Limelight', cursive;
+}
+/*Stylization for h3 tags*/
+h3{
+  color: #525252;
+}
+/*Stylization for page opener*/
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -24,11 +39,113 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+/*for description text in page opener*/
 .headerimghead{
   text-shadow: 5px 5px var(--blue1), 4px 4px var(--pink1);
 }
-
+/*for description text in page opener*/
 .headerimagedesc{
-  text-shadow: 5px 5px #black;
+  text-shadow: 1px 1px #000000;
+}
+/*for fontawesome icons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.fa-about:hover {
+  color: var(--pink2);
+  text-decoration: none;
+}
+
+.fa-skills:hover{
+  color: var(--blue2);
+  text-decoration: none;
+}
+
+.fa-pink{
+  background: var(--blue2);
+  color: var(--pink1);
+}
+
+.fa-blue{
+  background: var(--pink1);
+  color: var(--blue2);
+}
+
+.fa-cuttlefish{
+  text-align: center;
+}
+/*for alternating color sections*/
+.bg-blue{
+  background-color: var(--blue3);
+}
+
+.bg-pink{
+  background-color: var(--pink3);
+}
+/*for school logos and text sections*/
+.schools{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+}
+
+.gpa{
+  float: right;
+}
+
+/*for carousel*/
+.carousel, .carousel-item{
+  text-align: center;
+  width: 100%
+}
+.carousel-caption{
+  text-shadow: 1px 1px #000000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  text-align: center;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 60px;
+  color: var(--blue2);
+  text-align: center;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 60px;
+  color: var(--blue2);
+  text-align: center;
+}
+
+/*for background image in interests section*/
+.interests{
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  background-image: url("interests.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*for skill icons*/
+.skicons{
+  text-align: center;
 }

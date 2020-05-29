@@ -1,5 +1,8 @@
 Jesse J. Whittaker - Online Profile
->Navbar
+
+>pink/blue miami vice color scheme
+
+>Navbar (scroll down page when selected)
  - About
  - Experience
  - Education
@@ -7,4 +10,13 @@ Jesse J. Whittaker - Online Profile
  - Interests
  - Awards
 
->
+>Jumbotron when page loads with name
+>short blurb for aboutme with social links
+>list schools and accomplishments for Education
+>carousel with volunteer work and such for Experience
+>short blurb with icons or examples of skills demonstrated for skills
+>shortest blurb explaining extracurricular activities for interests, do something for background
+>remove Awards
+
+
+all one page, figure out scrolling links
