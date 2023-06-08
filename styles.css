@@ -107,7 +107,10 @@ h3{
   width: 100%
 }
 .carousel-caption{
-  text-shadow: 1px 1px #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #000000;
+  color: #bde5dd;
+  font-size: 1.15em;
 }
 
 .carousel-control-prev-icon,
@@ -140,7 +143,7 @@ h3{
   left:0;
   top:0;
   z-index:-1;
-  background-image: url("interests.png");
+  background-image: url("interests2.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
